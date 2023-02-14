@@ -17,6 +17,23 @@
 		875910B3299BDA69008CF5EB /* E_commerce_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910B2299BDA69008CF5EB /* E_commerce_appTests.swift */; };
 		875910BD299BDA69008CF5EB /* E_commerce_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910BC299BDA69008CF5EB /* E_commerce_appUITests.swift */; };
 		875910BF299BDA69008CF5EB /* E_commerce_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910BE299BDA69008CF5EB /* E_commerce_appUITestsLaunchTests.swift */; };
+		875910D3299BE10D008CF5EB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910D2299BE10D008CF5EB /* AppCoordinator.swift */; };
+		875910D6299BE141008CF5EB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910D5299BE141008CF5EB /* Coordinator.swift */; };
+		875910D9299BE1AC008CF5EB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910D8299BE1AC008CF5EB /* Router.swift */; };
+		875910DB299BE20C008CF5EB /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910DA299BE20C008CF5EB /* NavigationRouter.swift */; };
+		875910DE299BE2D5008CF5EB /* AppDelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910DD299BE2D5008CF5EB /* AppDelegateRouter.swift */; };
+		875910E1299BE333008CF5EB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910E0299BE333008CF5EB /* NetworkService.swift */; };
+		875910E8299BE5B7008CF5EB /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910E7299BE5B7008CF5EB /* Log.swift */; };
+		875910EA299BE5DD008CF5EB /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910E9299BE5DD008CF5EB /* TimeFormatter.swift */; };
+		875910ED299BE649008CF5EB /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910EC299BE649008CF5EB /* AuthCoordinator.swift */; };
+		875910EF299BE675008CF5EB /* AuthFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910EE299BE675008CF5EB /* AuthFactory.swift */; };
+		875910F1299BE68D008CF5EB /* AuthDependencyAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910F0299BE68D008CF5EB /* AuthDependencyAssembler.swift */; };
+		875910F7299BE745008CF5EB /* WelcomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910F2299BE745008CF5EB /* WelcomeFactory.swift */; };
+		875910F8299BE745008CF5EB /* WelcomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910F3299BE745008CF5EB /* WelcomeRepository.swift */; };
+		875910F9299BE745008CF5EB /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910F4299BE745008CF5EB /* WelcomeController.swift */; };
+		875910FA299BE745008CF5EB /* WelcomeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910F5299BE745008CF5EB /* WelcomeRepositoryProtocol.swift */; };
+		875910FB299BE745008CF5EB /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910F6299BE745008CF5EB /* WelcomeViewModel.swift */; };
+		875910FF299C1EED008CF5EB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875910FE299C1EED008CF5EB /* BaseViewController.swift */; };
 		9FF24B210CDF603B32ED8142 /* Pods_E_commerce_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DDD4C673E14C5622131FD8 /* Pods_E_commerce_app.framework */; };
 		F1CF22304F1ACB0243B074D0 /* Pods_E_commerce_app_E_commerce_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB5B7287009B41913F6E41E /* Pods_E_commerce_app_E_commerce_appUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +74,23 @@
 		875910B8299BDA69008CF5EB /* E-commerce-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-commerce-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875910BC299BDA69008CF5EB /* E_commerce_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_commerce_appUITests.swift; sourceTree = "<group>"; };
 		875910BE299BDA69008CF5EB /* E_commerce_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_commerce_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		875910D2299BE10D008CF5EB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		875910D5299BE141008CF5EB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		875910D8299BE1AC008CF5EB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		875910DA299BE20C008CF5EB /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		875910DD299BE2D5008CF5EB /* AppDelegateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateRouter.swift; sourceTree = "<group>"; };
+		875910E0299BE333008CF5EB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		875910E7299BE5B7008CF5EB /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		875910E9299BE5DD008CF5EB /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		875910EC299BE649008CF5EB /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		875910EE299BE675008CF5EB /* AuthFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFactory.swift; sourceTree = "<group>"; };
+		875910F0299BE68D008CF5EB /* AuthDependencyAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDependencyAssembler.swift; sourceTree = "<group>"; };
+		875910F2299BE745008CF5EB /* WelcomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFactory.swift; sourceTree = "<group>"; };
+		875910F3299BE745008CF5EB /* WelcomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRepository.swift; sourceTree = "<group>"; };
+		875910F4299BE745008CF5EB /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		875910F5299BE745008CF5EB /* WelcomeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		875910F6299BE745008CF5EB /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		875910FE299C1EED008CF5EB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		89DDD4C673E14C5622131FD8 /* Pods_E_commerce_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_commerce_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A302C6F09F381E903C1E47DC /* Pods-E-commerce-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-commerce-appTests.release.xcconfig"; path = "Target Support Files/Pods-E-commerce-appTests/Pods-E-commerce-appTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF369A49304F5104AA7E9364 /* Pods-E-commerce-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-commerce-app.debug.xcconfig"; path = "Target Support Files/Pods-E-commerce-app/Pods-E-commerce-app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +206,8 @@
 			children = (
 				87591098299BDA67008CF5EB /* AppDelegate.swift */,
 				8759109A299BDA67008CF5EB /* SceneDelegate.swift */,
+				875910DD299BE2D5008CF5EB /* AppDelegateRouter.swift */,
+				875910D2299BE10D008CF5EB /* AppCoordinator.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -179,6 +215,7 @@
 		875910CC299BDB9B008CF5EB /* Scenarios */ = {
 			isa = PBXGroup;
 			children = (
+				875910E2299BE4CB008CF5EB /* Auth */,
 			);
 			path = Scenarios;
 			sourceTree = "<group>";
@@ -186,6 +223,9 @@
 		875910CD299BDBC2008CF5EB /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				875910DF299BE324008CF5EB /* Api */,
+				875910D7299BE1A2008CF5EB /* Router */,
+				875910D4299BE135008CF5EB /* Coordinator */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -193,6 +233,8 @@
 		875910CE299BDBCA008CF5EB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				875910FD299C1ED9008CF5EB /* Base */,
+				875910E5299BE59D008CF5EB /* Utils */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -221,6 +263,87 @@
 			children = (
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		875910D4299BE135008CF5EB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				875910D5299BE141008CF5EB /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		875910D7299BE1A2008CF5EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				875910D8299BE1AC008CF5EB /* Router.swift */,
+				875910DA299BE20C008CF5EB /* NavigationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		875910DF299BE324008CF5EB /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				875910E0299BE333008CF5EB /* NetworkService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		875910E2299BE4CB008CF5EB /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				875910EB299BE632008CF5EB /* INITIAL */,
+				875910E4299BE4E4008CF5EB /* Welcome */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		875910E4299BE4E4008CF5EB /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				875910F2299BE745008CF5EB /* WelcomeFactory.swift */,
+				875910F3299BE745008CF5EB /* WelcomeRepository.swift */,
+				875910F4299BE745008CF5EB /* WelcomeController.swift */,
+				875910F6299BE745008CF5EB /* WelcomeViewModel.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		875910E5299BE59D008CF5EB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				875910E7299BE5B7008CF5EB /* Log.swift */,
+				875910E9299BE5DD008CF5EB /* TimeFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		875910EB299BE632008CF5EB /* INITIAL */ = {
+			isa = PBXGroup;
+			children = (
+				875910FC299BE77F008CF5EB /* protocols */,
+				875910EC299BE649008CF5EB /* AuthCoordinator.swift */,
+				875910EE299BE675008CF5EB /* AuthFactory.swift */,
+				875910F0299BE68D008CF5EB /* AuthDependencyAssembler.swift */,
+			);
+			path = INITIAL;
+			sourceTree = "<group>";
+		};
+		875910FC299BE77F008CF5EB /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				875910F5299BE745008CF5EB /* WelcomeRepositoryProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		875910FD299C1ED9008CF5EB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				875910FE299C1EED008CF5EB /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,9 +621,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875910D3299BE10D008CF5EB /* AppCoordinator.swift in Sources */,
+				875910DB299BE20C008CF5EB /* NavigationRouter.swift in Sources */,
+				875910E8299BE5B7008CF5EB /* Log.swift in Sources */,
+				875910F9299BE745008CF5EB /* WelcomeController.swift in Sources */,
 				87591099299BDA67008CF5EB /* AppDelegate.swift in Sources */,
+				875910FF299C1EED008CF5EB /* BaseViewController.swift in Sources */,
+				875910D6299BE141008CF5EB /* Coordinator.swift in Sources */,
+				875910E1299BE333008CF5EB /* NetworkService.swift in Sources */,
+				875910EA299BE5DD008CF5EB /* TimeFormatter.swift in Sources */,
+				875910F1299BE68D008CF5EB /* AuthDependencyAssembler.swift in Sources */,
+				875910F7299BE745008CF5EB /* WelcomeFactory.swift in Sources */,
 				875910A3299BDA67008CF5EB /* E_commerce_app.xcdatamodeld in Sources */,
+				875910D9299BE1AC008CF5EB /* Router.swift in Sources */,
+				875910FA299BE745008CF5EB /* WelcomeRepositoryProtocol.swift in Sources */,
 				8759109B299BDA67008CF5EB /* SceneDelegate.swift in Sources */,
+				875910ED299BE649008CF5EB /* AuthCoordinator.swift in Sources */,
+				875910EF299BE675008CF5EB /* AuthFactory.swift in Sources */,
+				875910F8299BE745008CF5EB /* WelcomeRepository.swift in Sources */,
+				875910FB299BE745008CF5EB /* WelcomeViewModel.swift in Sources */,
+				875910DE299BE2D5008CF5EB /* AppDelegateRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +746,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -660,7 +800,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -680,7 +820,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKK654AN49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "E-commerce-app/Info.plist";
+				INFOPLIST_FILE = "E-commerce-app/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -709,7 +849,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKK654AN49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "E-commerce-app/Info.plist";
+				INFOPLIST_FILE = "E-commerce-app/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
